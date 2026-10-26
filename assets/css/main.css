@@ -2853,3 +2853,93 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/*--------------------------------------------------------------
+# Dark Mode Global High-Contrast Visibility Overrides
+--------------------------------------------------------------*/
+.text-dark {
+  color: #ffffff !important;
+}
+
+.text-secondary,
+.text-muted {
+  color: #94a3b8 !important;
+}
+
+.text-light {
+  color: #f1f5f9 !important;
+}
+
+.bg-light,
+.bg-white {
+  background-color: var(--surface-color) !important;
+  color: var(--default-color) !important;
+}
+
+/* Ensure all headings, titles, labels and paragraphs are easily readable */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+p, li, span, label {
+  color: #cbd5e1;
+}
+
+.lead {
+  color: #e2e8f0 !important;
+}
+
+/* Form inputs on dark mode */
+.form-control,
+.form-select,
+textarea.form-control {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: #ffffff !important;
+  border-color: var(--accent-color) !important;
+  box-shadow: 0 0 0 0.25rem rgba(139, 92, 246, 0.25) !important;
+}
+
+.form-control::placeholder,
+textarea.form-control::placeholder {
+  color: #64748b !important;
+}
+
+.form-label {
+  color: #f8fafc !important;
+  font-weight: 500;
+}
+
+/* Card and Container surfaces */
+.card,
+.info-box,
+.contact-form,
+.service-item,
+.portfolio-card,
+.skill-box,
+.overview-card,
+.benefit-card,
+.timeline-item {
+  background-color: var(--surface-color) !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Badges */
+.badge.bg-light.text-dark {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.badge.bg-info.text-dark {
+  background-color: #06b6d4 !important;
+  color: #041f26 !important;
+  font-weight: 600;
+}
